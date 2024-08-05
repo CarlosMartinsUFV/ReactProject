@@ -1,0 +1,49 @@
+.containerDetalhes {
+  border: 1px solid rgba(222, 224, 220, 0.856);
+  padding: 1.5rem;
+  width: max-content;
+  background: white;
+  margin: 0;
+}
+
+.lista::-webkit-scrollbar {
+  width: 1rem;
+}
+.lista::-webkit-scrollbar-thumb {
+  background: rgba(14, 185, 14, 0.815);
+  border-left: 2px solid #eee;
+  border-right: 2px solid #eee;
+  border-radius: 6px;
+}
+
+.lista::-webkit-scrollbar-track {
+  background: white;
+}
+
+.lista {
+  height: 40rem;
+  overflow-y: scroll;
+}
+
+.containerDetalhes li {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.containerDetalhes p {
+  font-weight: bold;
+  display: block;
+  font-size: 1rem;
+}
+.containerDetalhes div {
+  width: 28rem;
+  background: rgb(234, 236, 233);
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+}
+
+.listaEndereco {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}

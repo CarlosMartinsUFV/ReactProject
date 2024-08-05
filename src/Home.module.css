@@ -1,0 +1,39 @@
+/* .homePosition {
+  height: 100vh;
+  position: relative;
+}
+.homeCard {
+  position: absolute;
+  top: 8rem;
+  left: 6rem;
+} */
+
+.containerHome {
+  border: 1px solid rgba(222, 224, 220, 0.856);
+  border-radius: 0.7rem;
+  padding: 2rem;
+}
+
+.containerButtons {
+  display: flex;
+  justify-content: end;
+  align-self: start;
+  gap: 1.8rem;
+  grid-area: 4/3;
+}
+
+.containersFiltros {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 0rem 2rem;
+  border: 1px solid rgba(222, 224, 220, 0.856);
+  border-radius: 0.7rem;
+  padding: 0 1.1rem;
+}
+
+.h3Filter {
+  grid-column: 1/-1;
+  grid-row: 1;
+  font-size: 1.2rem;
+}

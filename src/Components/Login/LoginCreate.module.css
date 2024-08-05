@@ -1,0 +1,12 @@
+.titleLoginCreate {
+  font-size: 2rem;
+}
+
+.titleLoginCreate::before {
+  content: "";
+  display: block;
+  background: green;
+  height: 0.5rem;
+  width: 3rem;
+  border-radius: 0.2rem;
+}

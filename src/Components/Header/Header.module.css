@@ -1,0 +1,47 @@
+.navStyle {
+  display: flex;
+  align-items: center;
+  margin: auto 0;
+  justify-content: space-between;
+  padding: 1.5rem;
+  z-index: 10;
+  border: 1px solid rgba(222, 224, 220, 0.856);
+  border-radius: 0.7rem;
+  color: #212529;
+}
+
+.headerStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-right: 35px;
+}
+.sair {
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+svg {
+  color: black;
+}
+
+.userName {
+  font-size: 1.5rem;
+}
+
+.inputHeader {
+  height: 1.5rem;
+  width: 15rem;
+  border: none;
+  border-bottom: 0.5px solid rgb(31, 204, 15);
+}
+
+.inputHeader:focus {
+  outline: none;
+}
