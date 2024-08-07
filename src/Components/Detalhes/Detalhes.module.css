@@ -1,4 +1,6 @@
 .detalhesPage {
   display: grid;
   grid-template-columns: auto 1fr;
+  gap: 3rem;
+  background: none !important;
 }

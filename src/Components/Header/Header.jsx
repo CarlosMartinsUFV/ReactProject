@@ -22,7 +22,7 @@ const Header = () => {
           : ""}
       </div>
       <div className={styles.headerStyle}>
-        <Lupa />
+        {/* <Lupa /> */}
         <div>
           <img src={IconeConta} alt="" />
         </div>{" "}

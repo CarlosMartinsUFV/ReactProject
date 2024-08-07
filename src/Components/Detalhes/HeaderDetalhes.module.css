@@ -1,0 +1,22 @@
+.navButtons {
+  display: flex;
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+  box-shadow: 0 2px 2px rgba(222, 224, 220, 0.856);
+}
+
+.navButtons button {
+  padding: 0.7rem 1.2rem;
+  cursor: pointer;
+  border: none;
+
+  border-radius: 0.3rem;
+  background-color: #f0f0f0;
+  margin-right: 1.5rem;
+}
+
+.navButtonsAtivo {
+  background: #0ba524 !important;
+  color: white;
+  transition: 0.2s;
+}

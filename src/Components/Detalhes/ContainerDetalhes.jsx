@@ -1,8 +1,4 @@
 import React from "react";
-import Header from "../Header/Header";
-import Input from "../Forms/Input";
-import Modal from "../Modal/Modal";
-import Button from "../Forms/Button";
 import styles from "./ContainerDetalhes.module.css";
 
 const ContainerDetalhes = () => {

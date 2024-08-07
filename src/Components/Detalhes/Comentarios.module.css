@@ -1,0 +1,37 @@
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 42rem;
+}
+
+.secaoComentarios {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: stretch;
+  margin: 1rem;
+}
+
+.secaoComentarios button {
+  align-self: center;
+}
+
+.textarea {
+  display: block;
+  font-size: 1rem;
+  resize: none;
+  border: 1px solid #eee;
+  padding: 1rem;
+  height: 5rem;
+  border-radius: 0.2rem;
+  background: #eee;
+  transition: 0.2s;
+  margin-right: 1rem;
+}
+
+.textarea:focus,
+.textarea:hover {
+  outline: none;
+  box-shadow: 0 0 1.5px 0.5px rgb(23, 207, 23), 0 0 0 1px rgb(19, 187, 19);
+  background: white;
+}

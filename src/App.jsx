@@ -1,7 +1,7 @@
 import React from "react";
 import Login from "./Components/Login/Login";
 import Home from "./Home.jsx";
-import Detalhes from "./Detalhes.jsx";
+import Detalhes from "./Components/Detalhes/Detalhes.jsx";
 
 import { UserStorage } from "./UserContext.jsx";
 import ProtectedRoute from "./Components/Helper/ProtectRoute";
@@ -27,7 +27,7 @@ const App = () => {
                 }
               ></Route>
               <Route
-                path="/detalhes"
+                path="/detalhes/*"
                 element={
                   <ProtectedRoute>
                     <Detalhes />

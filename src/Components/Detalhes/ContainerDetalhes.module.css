@@ -7,13 +7,12 @@
 }
 
 .lista::-webkit-scrollbar {
-  width: 1rem;
+  width: 0.9rem;
 }
 .lista::-webkit-scrollbar-thumb {
-  background: rgba(14, 185, 14, 0.815);
+  background: rgb(191, 194, 192);
   border-left: 2px solid #eee;
   border-right: 2px solid #eee;
-  border-radius: 6px;
 }
 
 .lista::-webkit-scrollbar-track {
@@ -37,9 +36,11 @@
 }
 .containerDetalhes div {
   width: 28rem;
-  background: rgb(234, 236, 233);
+  background: rgba(203, 204, 203, 0.384);
   padding: 0.7rem;
   border-radius: 0.5rem;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.616);
+  margin-right: 0.5rem;
 }
 
 .listaEndereco {
