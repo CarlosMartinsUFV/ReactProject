@@ -2,7 +2,8 @@ import React from "react";
 import styled from "styled-components";
 
 const ButtonComponent = styled.button`
-  padding: 0.5rem 1.1rem;
+  width: ${(props) => (props.width === "wd" ? "8.8rem" : "initial")};
+  padding: 0.6rem 1.1rem;
   background: ${(props) =>
     props.variant === "gr"
       ? "rgb(10, 158, 5)"
@@ -12,7 +13,7 @@ const ButtonComponent = styled.button`
           props.variant === "gr2"
             ? "rgb(12, 168, 17)"
             : props.variant === "gr3"
-            ? "rgb(200, 201, 199)"
+            ? "rgb(17, 120, 26)"
             : "white"};
 
   border: ${(props) =>
@@ -30,7 +31,7 @@ const ButtonComponent = styled.button`
   border-radius: 6px;
   &:hover {
     background: ${(props) =>
-      props.id === "1" ? "#f6faf5" : "rgb(43, 195, 40)"};
+      props.id === "1" ? "#f6faf5" : "rgb(43, 160, 40)"};
     transition: 0.3s;
     cursor: pointer;
     border: ${(props) =>

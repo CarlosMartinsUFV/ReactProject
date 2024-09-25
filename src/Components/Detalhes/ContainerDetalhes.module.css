@@ -1,9 +1,7 @@
 .containerDetalhes {
   border: 1px solid rgba(222, 224, 220, 0.856);
   padding: 1.5rem;
-  width: max-content;
   background: white;
-  margin: 0;
 }
 
 .lista::-webkit-scrollbar {
@@ -22,29 +20,26 @@
 .lista {
   height: 40rem;
   overflow-y: scroll;
-}
-
-.containerDetalhes li {
-  list-style: none;
+  padding: 0.6rem;
   margin-top: 1rem;
 }
 
-.containerDetalhes p {
-  font-weight: bold;
-  display: block;
-  font-size: 1rem;
+.lista li {
+  list-style: none;
+  margin-top: 0.8rem;
 }
-.containerDetalhes div {
+
+.lista li div {
   width: 28rem;
-  background: rgba(203, 204, 203, 0.384);
   padding: 0.7rem;
   border-radius: 0.5rem;
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.616);
   margin-right: 0.5rem;
 }
 
-.listaEndereco {
-  padding: 0;
-  display: flex;
-  flex-direction: column;
+.lista li p,
+li span {
+  font-weight: bold;
+  display: block;
+  font-size: 1rem;
 }

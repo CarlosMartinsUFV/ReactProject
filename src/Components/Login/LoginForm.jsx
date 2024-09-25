@@ -24,10 +24,10 @@ const LoginForm = () => {
   return (
     <section>
       <form className="containerForm" action="" onSubmit={handleSubmit}>
-        <div>
-          <img style={{ width: "100%" }} src={Brand} alt="Logotipo do App" />
+        <div className={styles.containerLogo}>
+          <img src={Brand} alt="Logotipo do App" />
         </div>
-        <div style={{ marginTop: "3rem" }}>
+        <div className={styles.containerLogin}>
           <h1 className={styles.title}>
             Sistema de Gerenciamento de Processos
           </h1>
@@ -51,17 +51,21 @@ const LoginForm = () => {
           </div>
           <div className={styles.formsInit}>
             {loading ? (
-              <Button disabled variant={"gr3"}>
+              <Button disabled variant={"gr2"}>
                 Carregando...
               </Button>
             ) : (
-              <Button variant={"gr"}>Começar</Button>
+              <Button width={"wd"} variant={"gr3"}>
+                Começar
+              </Button>
             )}
             {loading ? (
               <Button disabled></Button>
             ) : (
               <Link to="/Criar">
-                <Button variant={"gr3"}>Criar Usuário</Button>
+                <Button width={"wd"} variant={"gr2"}>
+                  Criar Usuário
+                </Button>
               </Link>
             )}
           </div>

@@ -8,9 +8,7 @@ const Comentarios = () => {
       {" "}
       <div className={styles.conteudo}>
         <div className={styles.secaoComentarios}>
-          <textarea className={styles.textarea} name="" id="">
-            {" "}
-          </textarea>{" "}
+          <textarea className={styles.textarea} name="" id=""></textarea>{" "}
           <Button variant={"gr"}>Enviar</Button>{" "}
         </div>
       </div>

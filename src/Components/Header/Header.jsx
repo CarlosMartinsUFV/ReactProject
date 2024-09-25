@@ -15,12 +15,14 @@ const Header = () => {
   return (
     <nav className={`container ${styles.navStyle}`}>
       {" "}
-      <div className={styles.userName}>
-        {data
-          ? `Bem-vindo 
+      <Link to="/home">
+        <div className={styles.userName}>
+          {data
+            ? `Bem-vindo 
       ${data.nome} `
-          : ""}
-      </div>
+            : ""}
+        </div>
+      </Link>
       <div className={styles.headerStyle}>
         {/* <Lupa /> */}
         <div>

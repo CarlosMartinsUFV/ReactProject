@@ -75,12 +75,21 @@ const Modal = () => {
   }
 
   function construir() {
-    if (cnpj.length >= 10) {
+    if (cnpj.length >= 14) {
       setcnpj(
         cnpj.replace(/(\d{2})(\d{3})(\d{3})(\d{4})(\d{2})/g, "$1.$2.$3/$4-$5")
       );
+
       return cnpj;
-    } else return;
+    } else {
+      let cnpjFormat = cnpj.padStart(14, "0");
+      setcnpj(
+        cnpjFormat.replace(
+          /(\d{2})(\d{3})(\d{3})(\d{4})(\d{2})/g,
+          "$1.$2.$3/$4-$5"
+        )
+      );
+    }
   }
 
   return (

@@ -52,7 +52,6 @@ function Table() {
   function onClick() {
     setModal(!modal);
   }
-  console.log(dataTable);
   return (
     <>
       <div className={styles.table}>

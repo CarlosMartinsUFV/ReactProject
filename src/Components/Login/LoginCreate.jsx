@@ -29,6 +29,7 @@ const LoginCreate = () => {
 
     if (response.ok) userLogin(username.value, password.value);
   }
+
   return (
     <section className={`animeLeft ${styles.containerCreater}`}>
       <h1 className={styles.titleLoginCreate}>Cadastre-se</h1>
